@@ -1,0 +1,30 @@
+h1{
+    background-color: rgb(216, 111, 129);
+    margin-bottom: 50px;
+
+}
+.container p{
+    
+    padding-left: 20px;
+    text-align:center;
+
+    margin-left: 500px;
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 300px;
+    
+
+}
+
+
+li{
+    font-size: larger;
+     text-decoration: dashed;
+     
+     
+}
+
+ol{
+    
+    border: 5px 4px solid;
+}
