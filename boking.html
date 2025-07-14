@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Booking Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="logo">  booking form</h1>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="help.html">help</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+
+  <div class="form-container">
+    <fieldset><legend>Guest information</legend>
+    
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" placeholder="Enter your name">
+
+      <label for="major">Your Major:</label>
+      <select id="major">
+        <option>Computer Science</option>
+        <option>Information Technology</option>
+        <option>Software Engineering</option>
+        <option>Networking</option>
+      </select>
+
+      <label>Gender:</label>
+      <div class="gender">
+        <input type="radio" name="gender" id="male"> <label for="male">Male</label>
+        <input type="radio" name="gender" id="female"> <label for="female">Female</label>
+      </div>
+
+      <label>Hobbies:</label>
+      <div class="hobbies">
+        <input type="checkbox" id="reading"> <label for="reading">Reading</label>
+        <input type="checkbox" id="coding"> <label for="coding">Coding</label>
+        <input type="checkbox" id="drawing"> <label for="drawing">Drawing</label>
+      </div>
+
+      <label for="comments">Comments:</label>
+      <textarea id="comments" rows="4" placeholder="Write your comments..."></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+    </fieldset>
+  </div>
+<footer class="footer">
+    <p>&copy; 2025 Fashion Style. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
